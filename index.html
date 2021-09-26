@@ -5,57 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
 
-    <title>Frontend Mentor | Social proof section</title>
+    <!-- * Spartan Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Social proof section</title>
+    
   </head>
   <body>
-    10,000+ of our users love our products.
 
-    We only provide great products combined with excellent customer service.
-    See what our satisfied customers are saying about our services.
-    
-    Rated 5 Stars in Reviews
-    Rated 5 Stars in Report Guru
-    Rated 5 Stars in BestTech
-    
-    Colton Smith 
-    Verified Buyer
-    "We needed the same printed design as the one we had ordered a week prior.
-    Not only did they find the original order, but we also received it in time.
-    Excellent!"
-    
-    Irene Roberts 
-    Verified Buyer
-    "Customer service is always excellent and very quick turn around. Completely
-    delighted with the simplicity of the purchase and the speed of delivery."
-    
-    Anne Wallace 
-    Verified Buyer
-    "Put an order with this company and can only praise them for the very high
-    standard. Will definitely use them again and recommend them to everyone!"
+    <!-- * Main Container (for border styles) -->
+    <main class="container">
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      <!-- * Grid with 2 columns in Desktop View -->
+      <div class="grid-2-col">
+        <!-- * Intro Title and Intro Text -->
+      <section class="intro">
+        <h1>10,000+ of our users love our products.</h1>
+        <p>We only provide great products combined with excellent customer service.
+          See what our satisfied customers are saying about our services.</p>
+      </section>
+
+      <!-- * Star Rating Section -->
+      <section class="star-ratings">
+        <p>Rated 5 Stars in Reviews</p>
+        <p>Rated 5 Stars in Report Guru</p>
+        <p>Rated 5 Stars in BestTech</p>
+      </section>
+
+      </div> <!-- * End of Grid with 2 Columns -->
+       
+      <!-- * Flex Box -->
+      <div class="flex-box">
+
+        <!-- * Card 1 -->
+        <div class="card card--1">
+          <img class="card__image" src="/images/image-colton.jpg" alt="Headshot">
+          <p class="card__name">Colton Smith </p>
+          <p class="card__subtitle">Verified Buyer</p>
+          <p class="card__testimonial">"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+            Excellent!"</p>
+        </div>
+
+        <!-- * Card 2 -->
+        <card class="card--2">
+          <img class="card__image" src="/images/image-irene.jpg" alt="Headshot">
+          <p class="card__name">Irene Roberts</p> 
+          <p class="card__subtitle">Verified Buyer</p>
+          <p class="card__testimonial">"Customer service is always excellent and very quick turn around. Completely
+            delighted with the simplicity of the purchase and the speed of delivery."</p>
+        </card>
+
+        <!-- * Card 3 -->
+        <card class="card--3">
+          <img class="card__image" src="/images/image-anne.jpg" alt="Headshot">
+          <p class="card__name">Anne Wallace</p> 
+          <p class="card__subtitle">Verified Buyer</p>
+          <p class="card__testimonial">"Put an order with this company and can only praise them for the very high
+            standard. Will definitely use them again and recommend them to everyone!"</p>   
+        </card>
+
+      </div> <!-- * End of Flex Box -->
+
+    </main>
+  
+    <footer>
+      <p>Challenge by <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a class="footer__link" href="https://github.com/tmerrick17">Trevor Merrick</a>.</p>         
+    </footer>
   </body>
 </html>
+        
+    

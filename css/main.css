@@ -1,0 +1,70 @@
+/* * CSS Reset & Universal Styles */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* * Removing default focus outline in browsers to add my own focus styles */
+a:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* * HTML Styles */
+html {
+  font-family: "Spartan", sans-serif;
+  font-size: 62.5%;
+  font-weight: 400;
+}
+
+/* * Body Styles */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* * Footer Styles */
+footer {
+  padding-top: 4rem;
+  font-size: 1rem;
+  text-align: center;
+  position: relative;
+  margin: auto 0 0.3rem;
+}
+footer p {
+  color: black;
+}
+
+/* * Footer Link Hover and Focus Styles */
+.footer__link {
+  color: #502050;
+  position: relative;
+}
+.footer__link:hover, .footer__link:focus {
+  color: #f7f2f7;
+}
+.footer__link:hover {
+  text-decoration: none;
+}
+.footer__link:focus::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #f7f2f7;
+}
+
+/*# sourceMappingURL=main.css.map */
