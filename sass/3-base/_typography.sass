@@ -2,6 +2,9 @@
 
 /* * Main Into Title and Paragraph text Styles*/
 .intro 
+    display: flex
+    flex-direction: column
+    align-items: center
     h1 
         text-align: center
         font-size: clamp(3.4rem, 3vw, 4.8rem)
@@ -13,6 +16,7 @@
     p
         text-align: center
         font-size: 1.4rem
+        max-width: 45ch
         line-height: 2.5rem
         color: abst.$color-magenta-gray-drk
         margin-bottom: 4rem
@@ -25,3 +29,26 @@
     color: abst.$color-magenta-drk
     width: 100%
 
+/* * Card Text Styles */
+.card__name,
+.card__subtitle
+    font-size: 1.3rem
+
+.card__subtitle,
+.card__testimonial    
+    font-weight: 200
+
+.card__name,
+.card__testimonial
+    color: abst.$color-white
+
+.card__name
+    font-weight: 500
+
+.card__subtitle
+    color: abst.$color-pink
+
+.card__testimonial
+    font-size: 1.2rem
+    line-height: 2rem
+    letter-spacing: 0.05rem

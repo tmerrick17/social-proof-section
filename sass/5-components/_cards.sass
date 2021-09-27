@@ -1,2 +1,42 @@
 @use '../1-abstracts' as abst
 
+.card-group
+    display: flex
+    flex-direction: column
+    align-items: center
+    width: 100%
+
+.card
+    background-color: abst.$color-magenta-drk
+    border-radius: 0.8rem
+    max-width: 35rem
+    //max-height: 23.4rem
+    margin-bottom: 1.6rem
+
+    //@media screen and (min-width: 1024px)
+    
+
+.card__content
+    padding: 4rem 3.2rem 3.2rem
+    display: grid
+    grid-template-columns: 4rem auto
+    grid-template-rows: repeat(2, 2rem) auto
+    column-gap: 2.5rem
+    grid-template-areas: "image name" "image subtitle" "tstmnl tstmnl"
+
+
+.card__image
+    border-radius: 50%
+    grid-area: image
+
+.card__name
+    grid-area: name
+
+
+.card__subtitle
+    grid-area: subtitle
+
+
+.card__testimonial
+    grid-area: tstmnl
+    margin-top: 2.5rem
