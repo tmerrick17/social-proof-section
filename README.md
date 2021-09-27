@@ -25,13 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design/screenshot-mobile-top.png)
-![](/design/screenshot-mobile-bottom.png)
+![](/design/screenshot-mobile.png)
 ![](/design/screenshot-desktop.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://your-solution-url.com)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-webpage-using-css-grid-and-flexbox-NRUuzPz-sH)
 - Live Site URL: [Live Site URL](https://tmerrick17.github.io/social-proof-section/)
 
 ## My process
