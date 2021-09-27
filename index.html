@@ -10,7 +10,7 @@
     <!-- * Spartan Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -24,6 +24,7 @@
 
       <!-- * Flex with 2 columns in Desktop View -->
       <div class="flex-2-col">
+        
         <!-- * Intro Title and Intro Text -->
         <section class="intro">
           <h1>10,000+ of our users love our products.</h1>
@@ -34,8 +35,8 @@
         <!-- * Star Rating Section -->
         <section class="banner-group">
           <!-- * Banner Rating from Reviews -->
-          <div class="banner">
-            <div class="banner__stars banner--1">
+          <div class="banner banner--1">
+            <div class="banner__stars">
               <img src="/images/icon-star.svg" alt="gold star">
               <img src="/images/icon-star.svg" alt="gold star">
               <img src="/images/icon-star.svg" alt="gold star">
@@ -44,7 +45,7 @@
             </div>
             <p>Rated 5 Stars in Reviews</p>
           </div>
-          <!-- * Banner Rating from Reviews -->
+          <!-- * Banner Rating from Report Guru -->
           <div class="banner banner--2">
             <div class="banner__stars">
               <img src="/images/icon-star.svg" alt="gold star">
@@ -55,7 +56,7 @@
             </div>
             <p>Rated 5 Stars in Report Guru</p>
           </div>
-          <!-- * Banner Rating from Reviews -->
+          <!-- * Banner Rating from BestTech-->
           <div class="banner banner--3">
             <div class="banner__stars">
               <img src="/images/icon-star.svg" alt="gold star">
@@ -69,40 +70,50 @@
 
         </section>
 
-      </div> <!-- * End of Grid with 2 Columns -->
+      </div> <!-- * End of Flex with 2 Columns -->
        
       <!-- * Flex with 3 Columns in Desktop View-->
       <div class="flex-3-col">
 
         <!-- * Card 1 -->
-        <section class="card card--1">
-          <img class="card__image" src="/images/image-colton.jpg" alt="Headshot">
-          <p class="card__name">Colton Smith </p>
-          <p class="card__subtitle">Verified Buyer</p>
-          <p class="card__testimonial">"We needed the same printed design as the one we had ordered a week prior.
-            Not only did they find the original order, but we also received it in time.
-            Excellent!"</p>
+        <section class="card-group">
+          <div class="card card--1">
+              <div class="card__content">
+                <img class="card__image" src="/images/image-colton.jpg" alt="Headshot">
+                <p class="card__name">Colton Smith </p>
+                <p class="card__subtitle">Verified Buyer</p>
+                <p class="card__testimonial">"We needed the same printed design as the one we had ordered a week prior.
+                  Not only did they find the original order, but we also received it in time.
+                  Excellent!"</p>
+              </div>
+          </div>
+  
+          <!-- * Card 2 -->
+          <div class="card card--2">
+            <div class="card__content">
+              <img class="card__image" src="/images/image-irene.jpg" alt="Headshot">
+              <p class="card__name">Irene Roberts</p> 
+              <p class="card__subtitle">Verified Buyer</p>
+              <p class="card__testimonial">"Customer service is always excellent and very quick turn around. Completely
+                delighted with the simplicity of the purchase and the speed of delivery."</p>
+            </div>
+          </div>
+  
+          <!-- * Card 3 -->
+          <div class="card card--3">
+            <div class="card__content">
+              <div class="card__image-container">
+                <img class="card__image" src="/images/image-anne.jpg" alt="Headshot">
+              </div>
+              <p class="card__name">Anne Wallace</p> 
+              <p class="card__subtitle">Verified Buyer</p>
+              <p class="card__testimonial">"Put an order with this company and can only praise them for the very high
+                standard. Will definitely use them again and recommend them to everyone!"</p>   
+            </div>
+          </div>
         </section>
 
-        <!-- * Card 2 -->
-        <section class="card--2">
-          <img class="card__image" src="/images/image-irene.jpg" alt="Headshot">
-          <p class="card__name">Irene Roberts</p> 
-          <p class="card__subtitle">Verified Buyer</p>
-          <p class="card__testimonial">"Customer service is always excellent and very quick turn around. Completely
-            delighted with the simplicity of the purchase and the speed of delivery."</p>
-        </section>
-
-        <!-- * Card 3 -->
-        <section class="card--3">
-          <img class="card__image" src="/images/image-anne.jpg" alt="Headshot">
-          <p class="card__name">Anne Wallace</p> 
-          <p class="card__subtitle">Verified Buyer</p>
-          <p class="card__testimonial">"Put an order with this company and can only praise them for the very high
-            standard. Will definitely use them again and recommend them to everyone!"</p>   
-        </section>
-
-      </div> <!-- * End of Flex Box -->
+      </div> <!-- * End of Flex with 3 Columns  -->
 
     </main>
   
