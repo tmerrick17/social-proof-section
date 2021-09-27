@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot-mobile-top.jpg)
-![](./design/screenshot-mobile-bottom.jpg)
-![](./design/screenshot-desktop.jpg)
+![](/design/screenshot-mobile-top.jpg)
+![](/design/screenshot-mobile-bottom.jpg)
+![](/design/screenshot-desktop.jpg)
 
 ### Links
 
 - Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live Site URL](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL](https://tmerrick17.github.io/social-proof-section/)
 
 ## My process
 
