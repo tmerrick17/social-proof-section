@@ -10,13 +10,16 @@
         flex-direction: column
         max-width: 45rem
 
+    @media screen and (min-width: 1440px)
+        max-width: 53.6rem
+
 .banner
     display: flex
     flex-direction: column
     align-items: center
+    padding: 1.5rem 6rem
     background-color: abst.$color-magenta-gray-lit
     border-radius: 0.8rem
-    padding: 1.5rem 6rem
     margin-bottom: 1.8rem
 
     @media screen and (min-width: 414px)
@@ -28,6 +31,12 @@
 
         &--3
             align-self: end
+    
+    @media screen and (min-width: 1440px)
+        flex-direction: row
+        align-items: start
+        width: 44.2rem
+        padding: 2rem 3rem 0.5rem
 
 .banner__stars
     display: flex
